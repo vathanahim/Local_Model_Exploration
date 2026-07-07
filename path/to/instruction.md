@@ -1,25 +1,15 @@
-# Instructions for Running Ollama Model with Aider
+# How to Use Aider with Ollama
 
-## Step-by-Step Guide
+## 1. Prerequisites
+- Install Ollama by running `pip install ollama` or following the official documentation.
+- Install Aider by running `pip install aider` or following the official documentation.
+- Verify both installations by running:
+  ```
+  ollama --version
+  aider --version
+  ```
 
-### Prerequisites
-1. Ensure you have Python installed.
-2. Install the necessary dependencies:
-   ```sh
-   pip install ollama aider
-   ```
+## 2. Downloading a Model
 
-### Setting Up the Working Directory
-1. Navigate to your desired working directory:
-   ```sh
-   cd Local_Model_Exploration
-   ```
-   
-2. Clone or download the Ollama model into this directory.
+To download a model using Ollama, run:
 
-3. Ensure you have a configuration file (e.g., `config.yml`) that specifies the model path and other settings.
-
-### Running the Model with Aider
-
-#### Command Line Syntax
-To run the Ollama model with Aider, use the following command:
