@@ -1,15 +1,26 @@
 # How to Use Aider with Ollama
 
 ## 1. Prerequisites
-- Install Ollama by running `pip install ollama` or following the official documentation.
-- Install Aider by running `pip install aider` or following the official documentation.
-- Verify both installations by running:
+- Install Python if it is not already installed on your system.
+- Install Ollama by running the following command:
+  ```sh
+  pip install ollama
   ```
+  This will install the latest version of Ollama from PyPI.
+
+- Install Aider by running the following command:
+  ```sh
+  pip install aider
+  ```
+  This will install the latest version of Aider from PyPI.
+
+- Verify both installations by running:
+  ```sh
   ollama --version
   aider --version
   ```
 
 ## 2. Downloading a Model
 
-To download a model using Ollama, run:
+To download a model using Ollama, navigate to your desired working directory and run:
 
