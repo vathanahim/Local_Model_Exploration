@@ -17,7 +17,7 @@
    
 2. Clone or download the Ollama model into this directory.
 
-3. Ensure you have a configuration file (e.g., `config.yaml`) that specifies the model path and other settings.
+3. Ensure you have a configuration file (e.g., `config.yml`) that specifies the model path and other settings.
 
 ### Running the Model with Aider
 
