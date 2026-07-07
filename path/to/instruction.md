@@ -12,7 +12,7 @@
 ### Setting Up the Working Directory
 1. Navigate to your desired working directory:
    ```sh
-   cd /path/to/your/directory
+   cd Local_Model_Exploration
    ```
    
 2. Clone or download the Ollama model into this directory.
